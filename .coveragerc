@@ -1,0 +1,10 @@
+[run]
+branch = True
+omit = *migrations*,
+       *urls*,
+       *test*,
+       *admin*,
+       ./piedpiper/config/*,
+       ./piedpiper/manage.py,
+       ./piedpiper/wsgi.py,
+       *__init__*
